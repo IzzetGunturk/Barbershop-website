@@ -1,6 +1,6 @@
 
 # 💈 Barbershop website
-This is my first React project ever what i have made in 2021.
+This is my first React project ever what I have made in 2021.
 
 ## 🛠️ Technologies
 
