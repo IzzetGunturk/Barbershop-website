@@ -1,0 +1,356 @@
+/* Hero section  */
+.hero-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+}
+
+.hero-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 94vh;
+    position: relative;
+    z-index: 2;
+}
+
+.hero-container .text-block {
+    position: absolute;
+    color: #fff;
+    top: 25%;
+    text-align: center;
+    z-index: 2;
+    display: inline-block;
+}
+
+.hero-container .text-block h1 {
+    padding: 10px;
+    font-size: 65px;
+    font-weight: bold;
+    position: relative;
+    top: 100px;
+}
+
+.hero-container .text-block .hero-btns {
+    padding: 20px;
+    position: relative;
+    top: 100px;
+}
+
+.heroImage {
+    filter: brightness(0.35);
+}
+
+.fa-chevron-down {
+    animation: mover 1s infinite  alternate;
+    font-size: 70px;
+    margin: 0px auto;
+    position: relative;
+    top: 190px;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+/*Responsive view*/
+@media (max-width: 800px) {
+    .hero-container img {
+        height: 38vh;
+    }
+
+    .hero-container .text-block {
+        top: 13%;
+        padding: 5px;
+        bottom: 170px;
+    }
+
+    .hero-container .text-block h1 {
+        font-size: 29px;
+        position: relative;
+        top: 50px;
+    }
+
+    .hero-container .text-block .hero-btns {
+        padding: 20px;
+        position: relative;
+        top: 50px;
+    }
+
+    .btn--large {
+        font-size: 13px;
+        padding: 12px 32px;
+    }
+
+    .fa-chevron-down {
+        display: none;
+    }
+}
+
+.buttonAfspraak {
+	background-color: #ffffff;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	border-radius: 30px;
+    animation: mover 1.5s infinite  alternate;
+}
+
+.buttonAfspraak {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    &:hover {
+        background-color: #CDCDCD;
+        transition: .2s all;
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+/* Hero section  */
+
+/* ----------------------------------------------------------  */
+
+/* About section  */
+#about {
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.about-tekst {
+	text-align: justify;
+}
+
+.barberPicture {
+	width: 320px;
+	box-shadow: 5px 10px 18px #888888;
+}
+
+#icons {
+	width: max-content;
+	margin-bottom: var(--mb-2);
+	font-size: 30px;
+	color: black;
+    text-align: left;
+	animation: mover 1s infinite  alternate;
+    cursor: pointer;
+
+    &:hover {
+        color: rgb(104, 104, 104);
+        transition: .2s all;
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+/* *Responsive view*/
+@media (max-width: 800px) { 
+
+	.barberPicture {
+		position: relative;
+		top: 30px;
+	}	
+}
+/* About section  */
+
+/* ----------------------------------------------------------  */
+
+/* Price section  */
+#priceListSection {
+    align-items: center;
+	justify-content: center;
+    text-align: center;
+}
+
+.card {
+    background-color: #242424;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.card2 {
+    background-color: #242424;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.titleCard {
+    color: white;
+    font-weight: bold;
+}
+
+.priceCard {
+    color: white;
+    font-weight: bold;
+}
+
+.buttonBook {
+	background-color: #ffffff;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	border-radius: 30px;
+	animation: mover 1.5s infinite  alternate;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    &:hover {
+        background-color: #CDCDCD;
+        transition: .2s all;
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+/*Responsive view*/
+@media (max-width: 800px) {
+    .card2 {
+        position: relative;
+        top: 40px;
+    }
+}
+/* Price section  */
+
+/* ----------------------------------------------------------  */
+
+/* Time section  */
+.timeSection {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.timeSection div {
+    padding: 2px;
+}
+/* Time section  */
+
+/* ----------------------------------------------------------  */
+
+/* Contact section  */
+#contact {
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gmap_canvas {
+    position: relative;
+    top: 45px;
+}
+
+.informationBarbershop2 {
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    text-decoration: none;
+    color: black;
+}
+
+.socialMediaButtons2 {
+    color: black;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+
+    &:hover {
+        color: rgb(104, 104, 104);
+        transition: .2s all;
+    }
+}
+
+.email2 {
+    color: black;
+
+    &:hover {
+        color: rgb(104, 104, 104);
+        transition: .2s all;
+    }
+}
+
+.phoneNumber2 {
+    color: black;
+
+    &:hover {
+        color: rgb(104, 104, 104);
+        transition: .2s all;
+    }
+}
+
+#footer1 {
+    background-color: #242424;
+    color: white;
+}
+
+.copyright {
+    color: black;
+    position: relative;
+    top: 10px;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+/* Contact section  */

@@ -1,0 +1,76 @@
+#footer {
+    background-color: #242424;
+}
+
+.socialMediaButtons {
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+
+    &:hover {
+        color: rgb(104, 104, 104);
+        transition: .2s all;
+    }
+}
+
+.email {
+    color: white;
+
+    &:hover {
+        color: rgb(104, 104, 104);
+        transition: .2s all;
+    }
+}
+
+.phoneNumber {
+    color: white;
+
+    &:hover {
+        color: rgb(104, 104, 104);
+        transition: .2s all;
+    }
+}
+
+
+#gmap_canvas {
+    position: relative;
+    top: -60px;
+}
+
+.informationBarbershop {
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+    text-decoration: none;
+}
+
+.copyright {
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+/*Responsive view*/
+@media (max-width: 800px) {
+    #gmap_canvas {
+        width: 330px;
+        position: relative;
+        top: -90px;
+    }
+
+    .informationBarbershop {
+        position: relative;
+        top: -30px;
+    }
+}
+
+@media (max-width: 992px) {
+    #gmap_canvas {
+        width: 330px;
+        position: relative;
+        top: -60px;
+    }
+
+}
