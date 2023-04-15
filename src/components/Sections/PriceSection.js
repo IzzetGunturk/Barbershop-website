@@ -30,7 +30,7 @@ function PriceSection() {
                 <img className="card-img-top" src={haircut} alt="haircut" />
                 <div className="card-body">
                   <h5 className="card-title titleCard" id='Titel'>Haircut</h5>
-                  <p className="card-text priceCard" id='Kopje'>€15,00</p>
+                  <p className="card-text priceCard" id='Kopje'>$15,00</p>
                   <button className='buttonBook'>Book now</button>
                 </div>
               </div>
@@ -40,7 +40,7 @@ function PriceSection() {
                 <img className="card-img-top" src={haircutbeard} alt="haircutbeard" />
                 <div className="card-body">
                   <h5 className="card-title titleCard" id='Titel'>Haircut + beard</h5>
-                  <p className="card-text priceCard" id='Kopje'>€20,00</p>
+                  <p className="card-text priceCard" id='Kopje'>$20,00</p>
                   <button className='buttonBook'>Book now</button>
                 </div>
               </div>
