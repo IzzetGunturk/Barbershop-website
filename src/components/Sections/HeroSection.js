@@ -18,7 +18,7 @@ function HeroSection() {
                 <div className="hero-btns">
                     <button className="buttonAfspraak">Book now</button>
                 </div>
-                <i className="fas fa-chevron-down scroll-down"></i>
+                <a href='#about'><i className="fas fa-chevron-down scroll-down"></i></a>
             </div>
         </div>
     )

@@ -9,10 +9,10 @@ import 'aos/dist/aos.css'
 function FotosSection() {
    // AOS effect
    useEffect (() => {
-    Aos.init({duration: 1000 });
+    Aos.init({duration: 2000 });
   }, []);
     return (
-        <section className="about bg-white py-5" id="about">
+        <section className="about bg-white py-5">
           <div className="container-lg py-4">
             <div className="row justify-content-center">
               <div className="col-lg-8">
@@ -21,7 +21,7 @@ function FotosSection() {
                 </div>
               </div>
             </div>
-            <div className="row">
+            <div className="row" data-aos="fade-up">
               <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
                 <img
                   src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
