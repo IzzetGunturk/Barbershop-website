@@ -20,8 +20,7 @@ function App() {
               <Route path="/Barbershop/Pictures" exact component={Pictures}/>
               <Route path="/Barbershop/Contact" exact component={Contact}/>
             </Switch>
-            </Router>
-      
+      </Router>
     </>
   );
 }
