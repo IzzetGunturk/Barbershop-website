@@ -1,14 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import '../../App.css'; 
 import './Section.scss';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 
 function TijdSection() {
-    // AOS effect
-    useEffect (() => {
-    Aos.init({duration: 1000 });
-    }, []);
     return (
       <section className="about bg-white py-5">
         <div className="container-lg py-4">
@@ -20,7 +14,7 @@ function TijdSection() {
             </div>
           </div>
           <div className="row"></div>
-          <div data-aos="fade-up" className="col-md-12 col-sx-12 timeSection">
+          <div className="col-md-12 col-sx-12 timeSection">
             <div>Monday: 10:00 - 17:00</div>
             <div>Tuesday: Closed</div>
             <div>Wednesday: 10:00 - 17:00</div>

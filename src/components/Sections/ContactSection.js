@@ -1,14 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import '../../App.css'; 
 import './Section.scss';
-import Aos from 'aos';
-import 'aos/dist/aos.css'
 
 function ContactSection() {
-    // AOS effect
-    useEffect (() => {
-    Aos.init({duration: 1000 });
-    }, []);
     return (
       <section className="about bg-white py-5" id="contact">
       <div className="container-lg py-4">
@@ -20,13 +14,13 @@ function ContactSection() {
           </div>
         </div>
         <div className="row">
-        <div data-aos="fade-up" className="col-md-6 col-sx-12">
+        <div className="col-md-6 col-sx-12">
         <div className="gmap_canvas"><iframe width="525" height="300" id="gmap_canvas"
               src="https://www.google.com/maps/embed?LINK" title='gmap'
               frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
           </div>
         </div>
-        <div data-aos="fade-up" className="col-md-6 col-sx-12">
+        <div className="col-md-6 col-sx-12">
         <div className='informationBarbershop2'>
                 <p>Redwood Avenue</p>
                 <p>90210 Cedarville</p>

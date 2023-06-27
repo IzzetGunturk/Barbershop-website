@@ -1,5 +1,5 @@
 .navbarItems {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.816);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -10,6 +10,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    backdrop-filter: blur(10px);
 }
 
 .navbar-logo {

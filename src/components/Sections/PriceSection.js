@@ -1,17 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import '../../App.css'; 
 import './Section.scss';
 import haircut from '../../images/haircut.webp'
 import haircutbeard from '../../images/haircutbeard.webp'
-import Aos from 'aos';
-import 'aos/dist/aos.css';
 
 
 function PriceSection() {
-  // AOS effect
-  useEffect (() => {
-    Aos.init({duration: 1000 });
-  }, []);
     return (
       <section className="about bg-white py-5" id="priceListSection">
         <div className="container-lg py-4">
@@ -25,7 +19,7 @@ function PriceSection() {
           <div className="row">
             <div className="col-md-3 col-sx-12">
             </div>
-            <div data-aos="fade-up" className="col-md-3 col-sx-12">
+            <div className="col-md-3 col-sx-12">
               <div className="card">
                 <img className="card-img-top" src={haircut} alt="haircut" />
                 <div className="card-body">
@@ -35,7 +29,7 @@ function PriceSection() {
                 </div>
               </div>
             </div>
-            <div data-aos="fade-up" className="col-md-3 col-sx-12">
+            <div className="col-md-3 col-sx-12">
               <div className="card2">
                 <img className="card-img-top" src={haircutbeard} alt="haircutbeard" />
                 <div className="card-body">

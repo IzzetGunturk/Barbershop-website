@@ -1,16 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import '../../App.css'; 
 import './Section.scss';
-import Aos from 'aos';
-import 'aos/dist/aos.css'
 
 
 
 function FotosSection() {
-   // AOS effect
-   useEffect (() => {
-    Aos.init({duration: 2000 });
-  }, []);
     return (
         <section className="about bg-white py-5">
           <div className="container-lg py-4">
@@ -21,7 +15,7 @@ function FotosSection() {
                 </div>
               </div>
             </div>
-            <div className="row" data-aos="fade-up">
+            <div className="row">
               <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
                 <img
                   src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
