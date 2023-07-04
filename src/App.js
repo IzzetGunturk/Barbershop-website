@@ -16,9 +16,9 @@ function App() {
           <Navbar />
             <Switch>
               {/* in switch komen de pagina's */}
-              <Route path= "/Barbershop/Home" exact component={Home}/>
-              <Route path="/Barbershop/Pictures" exact component={Pictures}/>
-              <Route path="/Barbershop/Contact" exact component={Contact}/>
+              <Route path= "/barbershopconcept/home" exact component={Home}/>
+              <Route path="/barbershopconcept/pictures" exact component={Pictures}/>
+              <Route path="/barbershopconcept/contact" exact component={Contact}/>
             </Switch>
       </Router>
     </>

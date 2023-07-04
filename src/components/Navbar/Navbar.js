@@ -14,7 +14,7 @@ class Navbar extends Component {
         render() {
             return(
                 <nav className="navbarItems">
-                   <a href="/Barbershop/Home"><img className='navbar-logo' src={Logo} alt='Logo'/></a>
+                   <a href="/barbershopconcept/home"><img className='navbar-logo' src={Logo} alt='Logo'/></a>
                     <div className="menu-icon" onClick={this.handleClick}>
                         {/* Als er op de hamburger menu wordt gedrukt, veranderd het van icoontje */}
                         <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-align-right'}></i>

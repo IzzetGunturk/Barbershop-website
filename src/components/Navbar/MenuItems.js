@@ -7,12 +7,12 @@ export const MenuItems = [
     },
     {
         title: "Pictures",
-        url: '/Barbershop/Pictures',
+        url: '/barbershopconcept/pictures',
         cName: 'nav-links'
     },
     {
         title: 'Contact',
-        url: '/Barbershop/Contact',
+        url: '/barbershopconcept/contact',
         cName: 'nav-links'
     }
 ]
